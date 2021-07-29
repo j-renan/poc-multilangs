@@ -1,0 +1,12 @@
+<div *transloco="let t">
+    <p>
+        {{ t('saiba_mais_text_p1') }}
+    </p>
+    <p>
+        {{ t('saiba_mais_text_p2') }}
+    </p>
+</div>
+
+<mat-dialog-actions align="end" *transloco="let t">
+    <button mat-button mat-dialog-close>{{ t('button_cancel') }}</button>
+</mat-dialog-actions>

@@ -1,0 +1,23 @@
+.example-card {
+    width: 70%;
+  }
+
+.example-header-image {
+    background-image: url('https://i1.wp.com/opresenterural.com.br/wp-content/uploads/2021/04/soja-embraoa.jpg?fit=567%2C851&ssl=1');
+    background-size: cover;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+img {
+    width: 40%;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}

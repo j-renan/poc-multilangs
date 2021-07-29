@@ -1,0 +1,12 @@
+<div class="fixed" *transloco="let t">
+    <mat-toolbar class="header mat-elevation-z4">
+        <span class="title-group">            
+            {{ t('toolbar_title') }}
+        </span>    
+        <span class="example-spacer"> </span>
+        <div>
+            <button (click)="setLang('pt')">Português</button>
+            <button (click)="setLang('es')">Español</button>
+        </div>
+    </mat-toolbar>
+</div>
