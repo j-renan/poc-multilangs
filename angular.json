@@ -105,9 +105,7 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "baseHref": "/poc-multilangs/"
-          }
+          "options": {}
         }
       }
     }
