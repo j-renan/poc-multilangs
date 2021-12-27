@@ -98,7 +98,7 @@
           }
         },
         "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "builder": "angular-cli-ghpages:extract-i18n",          
           "options": {
             "browserTarget": "poc-multilangs:build"
           }
